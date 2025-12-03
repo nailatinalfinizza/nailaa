@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Diary Saya</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Diary Harian</h1>
+        <p>Tulis catatan harianmu di sini.</p>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2>Tulis Catatan Baru</h2>
+            <textarea id="diaryText" placeholder="Tulis sesuatu..."></textarea>
+            <button onclick="saveDiary()">Simpan Catatan</button>
+        </section>
+
+        <section class="list-section">
+            <h2>Catatan Tersimpan</h2>
+            <ul id="diaryList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Web Diary Sederhana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
